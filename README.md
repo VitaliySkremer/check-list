@@ -1,5 +1,114 @@
-# Vue 3 + TypeScript + Vite
+# Check List
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vue 3 + TypeScript + Vite приложение для управления чек-листами.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Технологический стек
+
+### Основные библиотеки
+
+- **Vue 3** (^3.5.24) - JavaScript фреймворк
+- **TypeScript** (~5.9.3) - TypeScript для типизации
+- **Vite** (^7.2.4) - Сборщик и сервер разработки
+
+### UI и стили
+
+- **Tailwind CSS** (^4.1.18) - CSS фреймворк для стилизации
+- **Reka UI** (^2.8.0) - Библиотека UI компонентов
+- **Lucide Vue Next** (^0.563.0) - Иконки
+- **Class Variance Authority** (^0.7.1) - Утилита для управления вариантами компонентов
+- **Tailwind Merge** (^3.4.0) - Утилита для слияния Tailwind классов
+- **clsx** (^2.1.1) - Утилита для создания условных CSS классов
+
+### Утилиты и инструменты
+
+- **VueUse** (^14.2.0) - Набор полезных утилит для Vue
+- **@iconify/vue** (^5.0.0) - Иконки из Iconify
+- **tw-animate-css** (^1.4.0) - Анимации для Tailwind CSS
+
+### Инструменты разработки
+
+- **@vitejs/plugin-vue** (^6.0.1) - Vite плагин для Vue
+- **Vue TSC** (^3.1.4) - TypeScript компилятор для Vue
+- **Oxlint** (^1.42.0) - Быстрый линтер
+- **Oxfmt** (^0.27.0) - Форматирование кода
+
+## Доступные скрипты
+
+### Разработка
+
+```bash
+pnpm run dev
+```
+
+Запуск сервера разработки с горячей перезагрузкой.
+
+### Сборка
+
+```bash
+pnpm run build
+```
+
+Сборка проекта для продакшена. Запускает Vue TSC для проверки типов и Vite для сборки.
+
+### Предпросмотр
+
+```bash
+pnpm run preview
+```
+
+Предпросмотр собранного проекта.
+
+### Код качества
+
+```bash
+pnpm run lint
+```
+
+Запуск линтера Oxlint для проверки кода.
+
+```bash
+pnpm run lint:fix
+```
+
+Запуск линтера с автоматическим исправлением ошибок.
+
+```bash
+pnpm run fmt
+```
+
+Форматирование кода с помощью Oxfmt.
+
+```bash
+pnpm run fmt:check
+```
+
+Проверка форматирования кода без изменений.
+
+## Начало работы
+
+1. Установите зависимости:
+
+   ```bash
+   pnpm install
+   ```
+
+2. Запустите сервер разработки:
+
+   ```bash
+   pnpm run dev
+   ```
+
+3. Откройте http://localhost:5173 в браузере
+
+## Конфигурация
+
+Проект использует TypeScript с несколькими конфигурационными файлами:
+
+- `tsconfig.json` - основная конфигурация TypeScript
+- `tsconfig.app.json` - конфигурация для приложения
+- `tsconfig.node.json` - конфигурация для Node.js окружения
+
+Для линтинга и форматирования используются:
+
+- `.oxlintrc.json` - конфигурация Oxlint
+- `.oxfmtrc.json` - конфигурация Oxfmt
