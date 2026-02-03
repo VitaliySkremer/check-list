@@ -1,5 +1,23 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [],
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "semi": true,
   "singleQuote": false,
-  "ignorePatterns": []
+  "jsxSingleQuote": false,
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "singleAttributePerLine": true,
+  "htmlWhitespaceSensitivity": "strict",
+  "vueIndentScriptAndStyle": true,
+  "proseWrap": "always",
+  "insertPragma": false,
+  "printWidth": 110,
+  "requirePragma": false,
+  "tabWidth": 2,
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "lf"
 }

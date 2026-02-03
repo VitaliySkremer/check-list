@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { AppHeader } from "@/Modules/AppHeader";
+  import { AppHeader } from "@/Modules/AppHeader";
 </script>
 
 <template>
