@@ -26,6 +26,7 @@
       </Badge>
       <Badge class="text-base p-4 bg-(--milk-white) dark:bg-(--light-purple) text-black dark:text-white">
 
+      
         
         <Layers :size="16" /> 5 категорий
       </Badge>
